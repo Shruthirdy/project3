@@ -16,8 +16,8 @@ To execute the program, use the following command:
 ⁠ bash
 project3 <numNodes> <numRequests>
  ⁠
-•⁠  ⁠*numNodes*: Total number of nodes in the P2P network.
-•⁠  ⁠*numRequests*: Number of requests each node will issue.
+- ⁠*numNodes*: Total number of nodes in the P2P network.
+- ⁠*numRequests*: Number of requests each node will issue.
 
 ### Project Details
 #### Features Implemented
