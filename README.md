@@ -6,9 +6,9 @@
 This project implements the Chord Protocol in a Peer-to-Peer (P2P) network using Pony and the Actor Model. The project simulates a scalable lookup service with multiple nodes, each capable of issuing requests to locate keys within the network. The Chord Protocol ensures efficient routing and lookup, utilizing a circular ID space and finger tables to minimize the number of hops.
 
 ### Team Members
-•⁠  ⁠*Yaswanth Attaluri* 
+- ⁠*Yaswanth Attaluri* 
    UFID : 1013 6560
-•⁠  ⁠*Shruthi Yaramada*
+- *Shruthi Yaramada*
    UFID : 2649 7222
 
 ### Usage
