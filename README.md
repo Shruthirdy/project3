@@ -7,9 +7,9 @@ This project implements the Chord Protocol in a Peer-to-Peer (P2P) network using
 
 ### Team Members
 - ⁠*Yaswanth Attaluri* 
-   UFID : 1013 6560
+      UFID : 1013 6560
 - *Shruthi Yaramada*
-   UFID : 2649 7222
+      UFID : 2649 7222
 
 ### Usage
 To execute the program, use the following command:
