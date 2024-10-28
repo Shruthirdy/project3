@@ -39,19 +39,14 @@ project3 <numNodes> <numRequests>
    - At the end of execution, the average number of hops per request and the total hops across all requests are printed.
 
 ### Execution Example
-⁠ bash
-project3 10 100
- ⁠
-This command initializes a Chord network with 10 nodes, with each node making 100 requests. The program will output the initialization progress, request completion progress, and the final average hops taken per request.
-
-### Output
-The output includes:
-•⁠  ⁠Initialization status of each node.
-•⁠  ⁠Real-time tracking of requests completed.
-•⁠  ⁠Final statistics including the average number of hops and total requests completed.
+```bash
+./PROJECT3 <numNodes> <numRequests>
+```
 
 ### Largest Network Managed
-This implementation successfully managed networks of up to *[Insert Number]* nodes under testing, with *[Insert Number]* requests per node.
-
-### References
-•⁠  ⁠*Chord Paper*: [Chord: A Scalable Peer-to-peer Lookup Service for Internet Applications](https://pdos.csail.mit.edu/papers/ton:chord/paper-ton.pdf)
+- Successfully tested with a network of 10,000 peers and 100 requests per node.
+- System maintained stable routing performance:
+      - Average Hop Count remained within expected limits for a Distributed Hash Table (DHT).
+- Beyond this scale:
+      - Noticeable delays were observed.
+      - Occasional resource limitations arose due to increased message-handling and finger table maintenance overhead.
