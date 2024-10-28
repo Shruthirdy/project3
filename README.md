@@ -44,9 +44,9 @@ project3 <numNodes> <numRequests>
 ```
 
 ### Largest Network Managed
-- Successfully tested with a network of 10,000 peers and 100 requests per node.
-- System maintained stable routing performance:
+1. Successfully tested with a network of 10,000 peers and 100 requests per node.
+2. System maintained stable routing performance:
       - Average Hop Count remained within expected limits for a Distributed Hash Table (DHT).
-- Beyond this scale:
-      1. Noticeable delays were observed.
-      2. Occasional resource limitations arose due to increased message-handling and finger table maintenance overhead.
+Beyond this scale:
+   - Noticeable delays were observed.
+   - Occasional resource limitations arose due to increased message-handling and finger table maintenance overhead.
