@@ -48,5 +48,5 @@ project3 <numNodes> <numRequests>
 - System maintained stable routing performance:
       - Average Hop Count remained within expected limits for a Distributed Hash Table (DHT).
 - Beyond this scale:
-      - Noticeable delays were observed.
-      - Occasional resource limitations arose due to increased message-handling and finger table maintenance overhead.
+      1. Noticeable delays were observed.
+      2. Occasional resource limitations arose due to increased message-handling and finger table maintenance overhead.
