@@ -20,7 +20,7 @@ project3 <numNodes> <numRequests>
 - ⁠*numRequests*: Number of requests each node will issue.
 
 ### Project Details
-#### Features Implemented
+#### Features Implemented and Working
 1.⁠ ⁠*Node Initialization and Joining*:
    - Each node initializes itself and establishes connections within the network.
    - Nodes set up their finger tables and establish successor/predecessor relationships.
